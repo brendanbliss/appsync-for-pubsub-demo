@@ -49,6 +49,9 @@ const Counter = (props) => {
 
 function App() {
 
+  console.log("AWS CONFIG");
+  console.log(awsconfig);
+
   return (
     <div className="App">
       <h1>Multiplayer Realtime Slider Demo</h1>
